@@ -1,0 +1,48 @@
+table {
+    margin:1em auto;
+    border-collapse: separate;
+    background-color: black;
+}
+td {
+    height:30px;
+    width:30px;
+    border: thin;
+    /*border:1px solid;*/
+    text-align:center;
+    background-color: white;
+
+}
+td:first-child {
+    border-left:solid thick black;
+}
+td:nth-child(3n) {
+    border-right:solid thick black;
+}
+tr:first-child {
+    border-top:solid thick black;
+}
+tr:nth-child(3n) td {
+    border-bottom:solid thick black;
+}
+tr:first-child td {
+    border-top:solid thick black;
+}
+
+.given {
+    background-color: yellow;
+}
+
+
+.selected {
+    background-color: lime;
+}
+.selected.given {
+    background-color: darkorange;
+}
+
+.duplicate {
+    background-color: red;
+}
+.duplicater {
+    background-color: indianred;
+}
